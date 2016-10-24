@@ -1,0 +1,9 @@
+---
+- name: Install hdparm.
+  package: name=hdparm state=present
+
+- name: Generate hdparm.conf file
+  template:
+    src: hdparm.conf.j2
+    dest: /etc/hdparm.conf
+  when: hdparm_manage_config

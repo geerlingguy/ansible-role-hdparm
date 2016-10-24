@@ -1,0 +1,9 @@
+# {{ ansible_managed }}
+
+{% for device in hdparm_devices %}
+{{ device.dev }} {
+{% for option in device.options %}
+    {{ option }}
+{% endfor %}
+}
+{% endfor %}
