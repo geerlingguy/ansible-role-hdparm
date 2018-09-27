@@ -10,10 +10,10 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-      - all
+        - all
     - name: Ubuntu
       versions:
-      - all
+        - all
   galaxy_tags:
     - system
     - disk

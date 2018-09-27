@@ -3,6 +3,6 @@ hdparm_manage_config: true
 
 # hdparm dev definitions. Specify a device and a list of options.
 hdparm_devices: []
-  # - dev: /dev/sda
-  #   options:
-  #     - "spindown_time = 120"
+# - dev: /dev/sda
+#   options:
+#     - "spindown_time = 120"
