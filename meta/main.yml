@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: hdparm
   author: geerlingguy
   description: hdparm installation and configuration for Linux.
   company: "Midwestern Mac, LLC"
