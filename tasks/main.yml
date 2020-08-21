@@ -6,4 +6,5 @@
   template:
     src: hdparm.conf.j2
     dest: /etc/hdparm.conf
+    mode: 0644
   when: hdparm_manage_config
