@@ -1,6 +1,6 @@
 # Ansible Role: hdparm
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-hdparm.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-hdparm)
+[![Build Status](https://travis-ci.com/geerlingguy/ansible-role-hdparm.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-role-hdparm)
 
 Installs hdparm on Debian/Ubuntu Linux servers.
 
