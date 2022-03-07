@@ -41,8 +41,8 @@ jobs:
     strategy:
       matrix:
         distro:
-          - ubuntu1804
-          - debian9
+          - ubuntu2004
+          - debian11
 
     steps:
       - name: Check out the codebase.
